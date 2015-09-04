@@ -1,0 +1,7 @@
+<name>Wine Glass</name>
+<type>other</type>
+<weight>100</weight>
+<value>
+	<min>1</min>
+	<max>1</max>
+</value>

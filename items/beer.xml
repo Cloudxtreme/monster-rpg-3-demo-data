@@ -1,0 +1,7 @@
+<name>Beer</name>
+<type>other</type>
+<weight>200</weight>
+<value>
+	<min>1</min>
+	<max>1</max>
+</value>

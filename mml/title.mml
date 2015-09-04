@@ -1,0 +1,10 @@
+A t90 o3 y64 v128
+A a<a>a<<a>>y32b<b>>g<by64
+A a<a>a<<a>>b16r16b18r16<b>>g16r16g16r16<b
+A a<a>a<<a>>y32b<b>>g<by64
+A a<a>a<<a>>b8r8<b8r8>>b8r8<b8r8
+B @TYPE4 t90 o3 v250
+B b8r8a8b8<b8r8<aw>>a8b8<a8r8r>
+B b16r16b16r16a8b8<b8r8<aw>>a8b8<b8r8r>
+B b8r8a8b8<b8r8<aw>>a8b8<a8r8r>
+B b16r16b16r16a8b8<b8r8<aw>>a8b8<b8r8r>

@@ -1,0 +1,7 @@
+<name>Apple</name>
+<type>other</type>
+<weight>50</weight>
+<value>
+	<min>1</min>
+	<max>1</max>
+</value>

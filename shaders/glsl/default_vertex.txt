@@ -1,0 +1,19 @@
+#version 110
+
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 proj;
+
+attribute vec3 in_position;
+attribute vec4 in_colour;
+attribute vec2 in_texcoord;
+
+varying vec4 colour;
+varying vec2 texcoord;
+
+void main() {
+	colour = in_colour;
+	texcoord = in_texcoord;
+	gl_Position = proj * view * model * vec4(in_position, 1.0);
+}
+

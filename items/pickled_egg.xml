@@ -1,0 +1,7 @@
+<name>Pickled Egg</name>
+<type>other</type>
+<weight>10</weight>
+<value>
+	<min>1</min>
+	<max>1</max>
+</value>

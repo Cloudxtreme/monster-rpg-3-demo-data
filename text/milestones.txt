@@ -1,0 +1,12 @@
+0=First Scene
+1=Input Help
+2=drinker1
+3=drinker2
+4=sitting_lady1
+5=sitting_lady2
+6=laughing_man1
+7=legendary_warrior1
+8=sunshine1
+9=Pub Monsterslayer
+10=Drinker's bottle
+11=Always Discard

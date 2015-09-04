@@ -1,0 +1,26 @@
+bool use_tex;
+float add_r;
+float add_g;
+float add_b;
+float global_alpha;
+
+texture tex;
+sampler2D s = sampler_state {
+   texture = <tex>;
+};
+
+float4 ps_main(VS_OUTPUT Input) : COLOR0
+{
+	float4 result;
+	if (use_tex) {
+		result = Input.Color * tex2D(s, Input.TexCoord);
+	}
+	else {
+		result = Input.Color;
+	}
+	result.r = clamp(result.r + add_r, 0.0f, 1.0f);
+	result.g = clamp(result.g + add_g, 0.0f, 1.0f);
+	result.b = clamp(result.b + add_b, 0.0f, 1.0f);
+	result.a *= global_alpha;
+	return result;
+}

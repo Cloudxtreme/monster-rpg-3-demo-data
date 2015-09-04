@@ -1,0 +1,12 @@
+<name>Monsterslayer</name>
+<type>weapon</type>
+<condition>49000</condition>
+<weight>2500</weight>
+<value>
+	<min>50</min>
+	<max>200</max>
+</value>
+<attack>
+	<min>5</max>
+	<max>10</max>
+</attack>

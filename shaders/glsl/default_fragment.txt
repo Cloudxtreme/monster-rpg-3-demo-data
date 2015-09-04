@@ -1,0 +1,59 @@
+#version 110
+
+uniform bool substitute_yellow;
+uniform vec4 substitute_colour;
+
+uniform float global_alpha;
+
+uniform bool drawing_text;
+uniform bool drawing_text_shadow;
+uniform float xstep;
+uniform float ystep;
+
+uniform sampler2D tex;
+uniform bool use_tex;
+
+varying vec4 colour;
+varying vec2 texcoord;
+
+void main()
+{
+	vec4 result;
+	if (use_tex) {
+		result = texture2D(tex, texcoord) * colour;
+		if (substitute_yellow) {
+			if (result.r >= 0.995 && result.g >= 0.995 && result.b <= 0.004) {
+				result = substitute_colour;
+			}
+		}
+	}
+	else {
+		result = colour;
+	}
+
+	if (drawing_text) {
+		if (result.a == 0.0) {
+			discard;
+		}
+		else if (result.a < 1.0) {
+			vec4 result1 = texture2D(tex, vec2(texcoord.x+xstep, texcoord.y));
+			vec4 result2 = texture2D(tex, vec2(texcoord.x-xstep, texcoord.y));
+			vec4 result3 = texture2D(tex, vec2(texcoord.x, texcoord.y+ystep));
+			vec4 result4 = texture2D(tex, vec2(texcoord.x, texcoord.y-ystep));
+			if (result1.a == 1.0 || result2.a == 1.0 || result3.a == 1.0 || result4.a == 1.0) {
+				discard;
+			}
+		}
+		if (drawing_text_shadow) {
+			result.a = 0.5;
+		}
+		else {
+			result.a = 1.0;
+		}
+	}
+
+	result.a *= global_alpha;
+
+	gl_FragColor = result;
+}
+

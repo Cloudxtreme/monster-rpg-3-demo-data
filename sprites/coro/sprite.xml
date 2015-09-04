@@ -1,0 +1,28 @@
+<stand_n>
+</stand_n>
+<stand_s>
+</stand_s>
+<stand_e>
+</stand_e>
+<stand_w>
+</stand_w>
+<sit_n>
+</sit_n>
+<sit_s>
+</sit_s>
+<sit_e>
+</sit_e>
+<sit_w>
+</sit_w>
+<walk_n>
+	<delay>100</delay>
+</walk_n>
+<walk_s>
+	<delay>100</delay>
+</walk_s>
+<walk_e>
+	<delay>100</delay>
+</walk_e>
+<walk_w>
+	<delay>100</delay>
+</walk_w>

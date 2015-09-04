@@ -1,0 +1,28 @@
+#version 110
+
+uniform sampler2D tex;
+uniform bool use_tex;
+uniform float add_r;
+uniform float add_g;
+uniform float add_b;
+uniform float global_alpha;
+
+varying vec4 colour;
+varying vec2 texcoord;
+
+void main()
+{
+	vec4 result;
+	if (use_tex) {
+		result = texture2D(tex, texcoord) * colour;
+	}
+	else {
+		result = colour;
+	}
+	result.r = clamp(result.r + add_r, 0.0, 1.0);
+	result.g = clamp(result.g + add_g, 0.0, 1.0);
+	result.b = clamp(result.b + add_b, 0.0, 1.0);
+	result.a *= global_alpha;
+	gl_FragColor = result;
+}
+

@@ -1,0 +1,25 @@
+struct VS_INPUT
+{
+   float4 Position  : POSITION0;
+   float2 TexCoord  : TEXCOORD0;
+   float4 Color	 : TEXCOORD1;
+};
+struct VS_OUTPUT
+{
+   float4 Position  : POSITION0;
+   float4 Color	 : COLOR0;
+   float2 TexCoord  : TEXCOORD0;
+};
+
+float4x4 proj;
+float4x4 view;
+float4x4 model;
+
+VS_OUTPUT vs_main(VS_INPUT Input)
+{
+   VS_OUTPUT Output;
+   Output.Color = Input.Color;
+   Output.TexCoord = Input.TexCoord;
+   Output.Position = mul(Input.Position, mul(model, mul(view, proj)));
+   return Output;
+}
