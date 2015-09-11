@@ -15,14 +15,14 @@
 <sit_w>
 </sit_w>
 <walk_n>
-	<delay>100</delay>
+	<delay>96</delay>
 </walk_n>
 <walk_s>
-	<delay>100</delay>
+	<delay>96</delay>
 </walk_s>
 <walk_e>
-	<delay>100</delay>
+	<delay>128</delay>
 </walk_e>
 <walk_w>
-	<delay>100</delay>
+	<delay>128</delay>
 </walk_w>
