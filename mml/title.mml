@@ -1,10 +1,133 @@
-A t90 o3 y64 v128
-A a<a>a<<a>>y32b<b>>g<by64
-A a<a>a<<a>>b16r16b18r16<b>>g16r16g16r16<b
-A a<a>a<<a>>y32b<b>>g<by64
-A a<a>a<<a>>b8r8<b8r8>>b8r8<b8r8
-B @TYPE4 t90 o3 v250
-B b8r8a8b8<b8r8<aw>>a8b8<a8r8r>
-B b16r16b16r16a8b8<b8r8<aw>>a8b8<b8r8r>
-B b8r8a8b8<b8r8<aw>>a8b8<a8r8r>
-B b16r16b16r16a8b8<b8r8<aw>>a8b8<b8r8r>
+A t108 @TYPE0 y128
+A o3a4<<d2>a2
+A d2a+2
+A <d2>a2
+A d2<d4
+A g4<d4g4.f16g16
+A f4.e24r48f16e4c4
+A d4>g4.r8g12r96g16f12r96
+A g2.r4
+A <d4g4a+4.a24r48a+16
+A a4.g16a16g4f8..r32
+A d4g4...r32g16w96r64g16w64f16r48
+A g2.r4
+A g4r12g12a12a+2
+A a4r12a12a+12<c3r6
+A >a+4r12a+12<c12d4d+4
+A d2..r8
+A >g4d4>a+4r12a+16r48<c12
+A d3c12>a+12a8..r32f8..r32
+A f6a16r48g4.r8g24r24g12f12
+A g4....w24r2
+
+B t108 @TYPE0 y128 r4o4a2.
+B a+1
+B <c2....r32
+B d2>d2
+B g2a2
+B a+2<c2
+B >a+4g2f4
+B g2.r4
+B a2a+2
+B <c1
+B >a+4g2a4
+B a+2.r4
+B g2a+2
+B a2<c2
+B d2d+2
+B d4>a+4a4d4
+B g2f2
+B d+2d4..r16
+B d2.a+6a12
+B g2w48w64
+
+C t108 @TYPE0 y128 o4g2c2
+C <c2d+2
+C >g2<c2
+C >g2a2
+C d1
+C >a+4...r32<e2
+C d2.w6c12
+C d2.r4
+C d4...r32f2
+C >a2<e4..r16
+C d4>g4..r16g6<e16r48
+C d2.r4
+C e2d2
+C c2d+2
+C d2g4d+4
+C f+8..r32d16r48d16r48d16r48d3r6
+C d1....
+C r16
+C d4>a+4...r32a+6a16r48
+C a+4....w24
+
+D t108 @TYPE3 r1
+D r1
+D r1
+D r1
+D o2g1
+D a+4...r32a2
+D g2.d4
+D g2.r4
+D g2f1
+D d+2
+D d4g4.r8d6a12
+D g2.r4
+D g2a+2
+D a2f2
+D a+2<c4d+4
+D d2.r4
+D >g4...r32f2
+D d+4...r32d2
+D d4<d2d12r6
+D >g4....w24
+
+E t108 @TYPE6 r4o6a64r4....a64r4....
+E a64r4....a64r16..a64r4
+E r16..
+E a64r4....a64r4....
+E a64r8...a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16..a64r16..a64r2
+E r8...
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16..r24a64r16r192a64r2
+E r8...
+E a64r4....a64r4....
+E a64r4....a64r4....
+E a64r4....a64r8...
+E a64r8...a64r16r192a64r16r192a64r16r192a64r2
+E r8...
+E a64r4....a64r16r192a64r16r192a64r8...
+E r12
+E a64r16r192a64r16r192a64r16r192a64r8...a64r4....
+E a64r16r192a64r16r192a64r16r192a64r8...a64r8...
+E a64
+
+F t108 @TYPE5 r2o3g6r2
+F r3
+F g8..r2.
+F r32
+F g6r3
+F g8r4.g16r4..
+F g8..r2.r32
+F g8r4.g8r4.
+F g12r2.r6
+F g16r2...
+F g32r2....
+F g16r4..g32r4...
+F g32r2r8..g24r8g32r24r96
+F g32r2....
+F g16r8.g24r6r24g24r3r8
+F g32r8..g32r8..g24r3r8
+F g32r8..g32r8..g32r4...
+F g64r8...g32r8..g32r4...
+F g32r4...g32r4...
+F g24r3r8g32r4...
+F g32r2r8..g32r8..
+F g64
