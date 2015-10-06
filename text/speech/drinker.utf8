@@ -1,5 +1,5 @@
-|+milestone=drinker1,name=Man|Don't mind my buddy over there... he just started thinking about the word "o'clock" too much.
-drinker1|+milestone=drinker2,name=Man|He's right though... that is a funny word!
-drinker2|name=Man|It feels like it's 0 o'thermometer in here! Hehehe.
-Drinker's bottle|name=Man|You know, you can get your own drinks from the bartender.
-all,status=DRUNK|name=Man|And then I said Oh? Oh clock! Hahahahaha!
+|+milestone=drinker1,name=Drinker|Don't mind my buddy over there... he just started thinking about the word "o'clock" too much.
+drinker1|+milestone=drinker2,name=Drinker|He's right though... that is a funny word!
+drinker2|name=Drinker|It feels like it's 0 o'thermometer in here! Hehehe.
+Drinker's bottle|name=Drinker|You know, you can get your own drinks from the bartender.
+all,status=DRUNK|name=Drinker|And then I said Oh? Oh clock! Hahahahaha!

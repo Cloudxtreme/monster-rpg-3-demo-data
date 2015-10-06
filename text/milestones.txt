@@ -10,3 +10,5 @@
 9=Pub Monsterslayer
 10=Drinker's bottle
 11=Always Discard
+12=alfred apple 1
+13=alfred apple 2
