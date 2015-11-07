@@ -12,3 +12,7 @@
 11=Always Discard
 12=alfred apple 1
 13=alfred apple 2
+14=Get Pie
+15=Rooster Quest
+16=Got Pie
+17=Got Jumbo Rooster
