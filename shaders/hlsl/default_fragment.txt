@@ -3,11 +3,6 @@ float4 substitute_colour;
 
 float global_alpha;
 
-bool drawing_text;
-bool drawing_text_shadow;
-float xstep;
-float ystep;
-
 bool use_tex;
 texture tex;
 sampler2D s = sampler_state {
@@ -28,27 +23,6 @@ float4 ps_main(VS_OUTPUT Input) : COLOR0
 	}
 	else {
 		result = Input.Color;
-	}
-
-	if (drawing_text) {
-		if (result.a == 0.0f) {
-			discard;
-		}
-		else if (result.a < 1.0f) {
-			float4 result1 = tex2D(s, float2(Input.TexCoord.x+xstep, Input.TexCoord.y));
-			float4 result2 = tex2D(s, float2(Input.TexCoord.x-xstep, Input.TexCoord.y));
-			float4 result3 = tex2D(s, float2(Input.TexCoord.x, Input.TexCoord.y+ystep));
-			float4 result4 = tex2D(s, float2(Input.TexCoord.x, Input.TexCoord.y-ystep));
-			if (result1.a == 1.0f || result2.a == 1.0f || result3.a == 1.0f || result4.a == 1.0f) {
-				discard;
-			}
-		}
-		if (drawing_text_shadow) {
-			result.a = 0.5f;
-		}
-		else {
-			result.a = 1.0f;
-		}
 	}
 
 	result.a *= global_alpha;
