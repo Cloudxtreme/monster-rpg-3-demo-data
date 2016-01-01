@@ -1,4 +1,4 @@
-#version 110
+#version 120
 
 uniform bool substitute_yellow;
 uniform vec4 substitute_colour;
