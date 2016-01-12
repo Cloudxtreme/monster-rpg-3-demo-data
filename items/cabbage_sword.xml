@@ -1,0 +1,13 @@
+<name>Cabbage Sword</name>
+<components>monsterslayer:cabbage</components>
+<type>weapon</type>
+<condition>65535</condition>
+<weight>3000</weight>
+<value>
+	<min>6000</min>
+	<max>24000</max>
+</value>
+<attack>
+	<min>7</max>
+	<max>15</max>
+</attack>
