@@ -1,0 +1,12 @@
+<name>Cowboy Hat</name>
+<type>armour</type>
+<condition>52000</condition>
+<weight>400</weight>
+<value>
+	<min>500</min>
+	<max>1500</max>
+</value>
+<defense>
+	<min>1</max>
+	<max>3</max>
+</defense>

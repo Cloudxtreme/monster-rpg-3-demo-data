@@ -1,0 +1,7 @@
+<name>Cabbage</name>
+<type>other</type>
+<weight>200</weight>
+<value>
+	<min>100</min>
+	<max>100</max>
+</value>
