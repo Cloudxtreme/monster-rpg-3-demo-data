@@ -21,40 +21,40 @@
 	<delay>96</delay>
 </walk_s>
 <walk_e>
-	<delay>128</delay>
+	<delay>192</delay>
 </walk_e>
 <walk_w>
-	<delay>128</delay>
+	<delay>192</delay>
 </walk_w>
 <sleep_n_e>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_n_e>
 <sleep_n_w>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_n_w>
 <sleep_e_n>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_e_n>
 <sleep_e_s>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_e_s>
 <sleep_s_e>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_s_e>
 <sleep_s_w>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_s_w>
 <sleep_w_n>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_w_n>
 <sleep_w_s>
-	<delay>256</delay>
+	<delay>192</delay>
 	<loop>false</loop>
 </sleep_w_s>
