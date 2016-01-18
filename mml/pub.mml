@@ -1,4 +1,4 @@
-A t115 y64
+A v192 t115 y64
 A o5d16r16d16r16d16r16d16r16e16r16d16r16c16r16>b16r16
 A <c16r16>a8r2<c16r16>b16r16
 A <c16r16>a8r2b16r16a16r16
@@ -12,7 +12,7 @@ A d16r16>a8r2<e16r16d16r16
 A e16r16c8r2d16r16c16r16
 A >b16r16g8r2.
 
-B t115
+B v192 t115
 B o4d8r8d16r8d16e8r8c8r8
 B d16r16>a8r2<e16r16d16r16
 B e16r16c8r2d16r16c16r16
@@ -26,7 +26,7 @@ B <c16r16>a8r2<c16r16>b16r16
 B <c16r16>a8r2b16r16a16r16
 B b16r2r16>>g8<d8
 
-C t115 y192
+C v192 t115 y192
 C o2g8<g8r2..
 C c8>a8<d8c16r16>b8<c8>a8
 C r4.<c8>a8<d8r2
@@ -40,7 +40,7 @@ C c8>a8<d8c16r16>b8<c8>a8
 C r4.<c8>a8<d8r2
 C >g8r8g8
 
-D t115 @TYPE6
+D v192 t115 @TYPE6
 D o6g3r6r8g16r16g16.r8r32
 D g4r2.
 D g8.r8.g24r12g16.r8r32g16.r8r32
@@ -54,7 +54,7 @@ D g8r2g24r12g24r6r24
 D g12r2r6g12r6
 D g12r2r6g16w64
 
-E t115 @TYPE5
+E v192 t115 @TYPE5
 E r4o2g8.r2.
 E r16
 E g8.r4r16g8r2..

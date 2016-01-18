@@ -1,6 +1,4 @@
-@V0 = { 255 0 }
-@P0 = { f6 }
-A t130 o5 @V0f8@V0@P0@V0f8@V0 r
-B t120 o5 r8f r
-C t130 o5 @V0f8@V0@P0@V0f8@V0 r
-D t120 o5 r8f r
+A y32t520o5r2.c1.
+B y32t520o4gr2g1.
+C y32t520o4rfrf1.
+D y32t520o4r2cc1.
