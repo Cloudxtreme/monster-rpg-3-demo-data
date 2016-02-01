@@ -1,0 +1,10 @@
+<name>Chicken Pie</name>
+<components>chicken:vegetables:wheat:match</components>
+<type>other</type>
+<condition>65535</condition>
+<weight>350</weight>
+<value>
+	<min>0</min>
+	<max>2000</max>
+</value>
+<can_disassemble>false</can_disassemble>

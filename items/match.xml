@@ -1,0 +1,7 @@
+<name>Match</name>
+<type>other</type>
+<weight>10</weight>
+<value>
+	<min>50</min>
+	<max>50</max>
+</value>
